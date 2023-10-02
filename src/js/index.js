@@ -17,4 +17,6 @@ a seleção dele
 
 const botoes = document.querySelectorAll('.botao');
 
-botoes.forEach()
+botoes.forEach(botao => {
+    console.log(botao)
+})
